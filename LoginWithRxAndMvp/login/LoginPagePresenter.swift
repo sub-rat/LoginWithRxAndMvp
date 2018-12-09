@@ -12,6 +12,7 @@ import RxSwift
 class LoginPagePresenter: LoginPresenter {
   
     
+    
     func start() {
         
     }
@@ -20,7 +21,7 @@ class LoginPagePresenter: LoginPresenter {
         
     }
    
-    func doLogin(loginModel: LoginViewModel) {
+    func doLogin(loginModel: LoginRequest) {
         
     }
     

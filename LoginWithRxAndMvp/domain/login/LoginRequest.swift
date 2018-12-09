@@ -1,5 +1,5 @@
 //
-//  LoginViewModel.swift
+//  LoginRequest.swift
 //  LoginWithRxAndMvp
 //
 //  Created by Subrat Gyawali on 12/9/18.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-class LoginViewModel {
-    
+class LoginRequest {
     var username: String
     var password: String
     

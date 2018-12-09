@@ -9,7 +9,7 @@
 import Foundation
 
 protocol LoginPresenter : BasePresenter {
-    func doLogin(loginModel: LoginViewModel)
+    func doLogin(loginModel: LoginRequest)
     func isUserLoggedIn() -> Bool
 }
 

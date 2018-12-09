@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import RxSwift
+
+protocol UserRepository {
+//    func doLogin(loginModel : LoginRequest) -> Observable<LoginResponse>
+}

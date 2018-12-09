@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import RxSwift
+
+class UserRepositoryImpl: UserRepository {
+
+}
