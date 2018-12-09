@@ -16,7 +16,7 @@
 		3A8D7F6B21BCCCDA00C8AE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8D7F6921BCCCDA00C8AE57 /* LaunchScreen.storyboard */; };
 		3A8D7F7621BCCCDB00C8AE57 /* LoginWithRxAndMvpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F7521BCCCDB00C8AE57 /* LoginWithRxAndMvpTests.swift */; };
 		3A8D7F8221BCD9A100C8AE57 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8121BCD9A100C8AE57 /* BasePresenter.swift */; };
-		3A8D7F8521BCDAAF00C8AE57 /* LoginPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8421BCDAAF00C8AE57 /* LoginPagePresenter.swift */; };
+		3A8D7F8521BCDAAF00C8AE57 /* LoginPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8421BCDAAF00C8AE57 /* LoginPresenterImpl.swift */; };
 		3A8D7F8721BCDAC700C8AE57 /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8621BCDAC700C8AE57 /* LoginContract.swift */; };
 		3A8D7F8D21BCEE6B00C8AE57 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8C21BCEE6B00C8AE57 /* UserRepository.swift */; };
 		3A8D7F8F21BCEE7F00C8AE57 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F8E21BCEE7F00C8AE57 /* UserRepositoryImpl.swift */; };
@@ -29,6 +29,13 @@
 		3A8D7FA021BCF0B600C8AE57 /* FailedResponseException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7F9F21BCF0B600C8AE57 /* FailedResponseException.swift */; };
 		3A8D7FA321BCF26600C8AE57 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FA221BCF26600C8AE57 /* LoginRequest.swift */; };
 		3A8D7FA521BCF26F00C8AE57 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FA421BCF26F00C8AE57 /* LoginResponse.swift */; };
+		3A8D7FA921BD146F00C8AE57 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FA821BD146F00C8AE57 /* Utils.swift */; };
+		3A8D7FAB21BD147A00C8AE57 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FAA21BD147A00C8AE57 /* Urls.swift */; };
+		3A8D7FAD21BD149100C8AE57 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FAC21BD149100C8AE57 /* ObservableType.swift */; };
+		3A8D7FAF21BD14A900C8AE57 /* NotNullMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FAE21BD14A900C8AE57 /* NotNullMapper.swift */; };
+		3A8D7FB221BD200500C8AE57 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FB121BD200500C8AE57 /* UserRouter.swift */; };
+		3A8D7FB421BD23D300C8AE57 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FB321BD23D300C8AE57 /* Extensions.swift */; };
+		3A8D7FB721BD2D4400C8AE57 /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D7FB621BD2D4400C8AE57 /* PreferenceManager.swift */; };
 		FFE13F4EFEB68B0E18155646 /* Pods_LoginWithRxAndMvp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934A38B349967F9F6500C726 /* Pods_LoginWithRxAndMvp.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +63,7 @@
 		3A8D7F7521BCCCDB00C8AE57 /* LoginWithRxAndMvpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithRxAndMvpTests.swift; sourceTree = "<group>"; };
 		3A8D7F7721BCCCDB00C8AE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8D7F8121BCD9A100C8AE57 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
-		3A8D7F8421BCDAAF00C8AE57 /* LoginPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPagePresenter.swift; sourceTree = "<group>"; };
+		3A8D7F8421BCDAAF00C8AE57 /* LoginPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterImpl.swift; sourceTree = "<group>"; };
 		3A8D7F8621BCDAC700C8AE57 /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
 		3A8D7F8C21BCEE6B00C8AE57 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		3A8D7F8E21BCEE7F00C8AE57 /* UserRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryImpl.swift; sourceTree = "<group>"; };
@@ -69,6 +76,13 @@
 		3A8D7F9F21BCF0B600C8AE57 /* FailedResponseException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedResponseException.swift; sourceTree = "<group>"; };
 		3A8D7FA221BCF26600C8AE57 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		3A8D7FA421BCF26F00C8AE57 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		3A8D7FA821BD146F00C8AE57 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3A8D7FAA21BD147A00C8AE57 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		3A8D7FAC21BD149100C8AE57 /* ObservableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
+		3A8D7FAE21BD14A900C8AE57 /* NotNullMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotNullMapper.swift; sourceTree = "<group>"; };
+		3A8D7FB121BD200500C8AE57 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		3A8D7FB321BD23D300C8AE57 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3A8D7FB621BD2D4400C8AE57 /* PreferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
 		572D71F5B02F2C84E4EE9579 /* Pods-LoginWithRxAndMvpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithRxAndMvpTests.release.xcconfig"; path = "Target Support Files/Pods-LoginWithRxAndMvpTests/Pods-LoginWithRxAndMvpTests.release.xcconfig"; sourceTree = "<group>"; };
 		869C43758B22D7B3C14A7769 /* Pods_LoginWithRxAndMvpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithRxAndMvpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A38B349967F9F6500C726 /* Pods_LoginWithRxAndMvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithRxAndMvp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,11 +144,14 @@
 		3A8D7F5C21BCCCD900C8AE57 /* LoginWithRxAndMvp */ = {
 			isa = PBXGroup;
 			children = (
-				3A8D7FA121BCF25300C8AE57 /* domain */,
+				3A8D7FB521BD2D3700C8AE57 /* prefs */,
+				3A8D7FB021BD1FEA00C8AE57 /* router */,
 				3A8D7F9A21BCF03400C8AE57 /* network */,
 				3A8D7F8A21BCEE2400C8AE57 /* data */,
 				3A8D7F8321BCDA7600C8AE57 /* login */,
 				3A8D7F8021BCD98200C8AE57 /* base */,
+				3A8D7FA121BCF25300C8AE57 /* domain */,
+				3A8D7FA721BD144200C8AE57 /* utils */,
 				3A8D7F5D21BCCCD900C8AE57 /* AppDelegate.swift */,
 				3A8D7F6121BCCCD900C8AE57 /* Main.storyboard */,
 				3A8D7F6721BCCCDA00C8AE57 /* Assets.xcassets */,
@@ -166,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				3A8D7F5F21BCCCD900C8AE57 /* LoginViewController.swift */,
-				3A8D7F8421BCDAAF00C8AE57 /* LoginPagePresenter.swift */,
+				3A8D7F8421BCDAAF00C8AE57 /* LoginPresenterImpl.swift */,
 				3A8D7F8621BCDAC700C8AE57 /* LoginContract.swift */,
 			);
 			path = login;
@@ -234,6 +251,34 @@
 				3A8D7FA421BCF26F00C8AE57 /* LoginResponse.swift */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		3A8D7FA721BD144200C8AE57 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D7FA821BD146F00C8AE57 /* Utils.swift */,
+				3A8D7FAA21BD147A00C8AE57 /* Urls.swift */,
+				3A8D7FAC21BD149100C8AE57 /* ObservableType.swift */,
+				3A8D7FAE21BD14A900C8AE57 /* NotNullMapper.swift */,
+				3A8D7FB321BD23D300C8AE57 /* Extensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		3A8D7FB021BD1FEA00C8AE57 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D7FB121BD200500C8AE57 /* UserRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3A8D7FB521BD2D3700C8AE57 /* prefs */ = {
+			isa = PBXGroup;
+			children = (
+				3A8D7FB621BD2D4400C8AE57 /* PreferenceManager.swift */,
+			);
+			path = prefs;
 			sourceTree = "<group>";
 		};
 		5BCD53485E4AF59A41F7F679 /* Frameworks */ = {
@@ -428,18 +473,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8D7FB421BD23D300C8AE57 /* Extensions.swift in Sources */,
 				3A8D7F9E21BCF06600C8AE57 /* BaseResponse.swift in Sources */,
+				3A8D7FB221BD200500C8AE57 /* UserRouter.swift in Sources */,
 				3A8D7FA321BCF26600C8AE57 /* LoginRequest.swift in Sources */,
+				3A8D7FB721BD2D4400C8AE57 /* PreferenceManager.swift in Sources */,
 				3A8D7FA521BCF26F00C8AE57 /* LoginResponse.swift in Sources */,
 				3A8D7F9921BCEFD400C8AE57 /* UserLocalImpl.swift in Sources */,
 				3A8D7F8F21BCEE7F00C8AE57 /* UserRepositoryImpl.swift in Sources */,
+				3A8D7FAB21BD147A00C8AE57 /* Urls.swift in Sources */,
 				3A8D7F6021BCCCD900C8AE57 /* LoginViewController.swift in Sources */,
 				3A8D7F8721BCDAC700C8AE57 /* LoginContract.swift in Sources */,
 				3A8D7F8221BCD9A100C8AE57 /* BasePresenter.swift in Sources */,
 				3A8D7F9521BCEF8E00C8AE57 /* UserRemoteImpl.swift in Sources */,
 				3A8D7F6621BCCCD900C8AE57 /* LoginWithRxAndMvp.xcdatamodeld in Sources */,
-				3A8D7F8521BCDAAF00C8AE57 /* LoginPagePresenter.swift in Sources */,
+				3A8D7F8521BCDAAF00C8AE57 /* LoginPresenterImpl.swift in Sources */,
+				3A8D7FA921BD146F00C8AE57 /* Utils.swift in Sources */,
 				3A8D7F9321BCEF7E00C8AE57 /* UserRemoteRepo.swift in Sources */,
+				3A8D7FAF21BD14A900C8AE57 /* NotNullMapper.swift in Sources */,
+				3A8D7FAD21BD149100C8AE57 /* ObservableType.swift in Sources */,
 				3A8D7F5E21BCCCD900C8AE57 /* AppDelegate.swift in Sources */,
 				3A8D7FA021BCF0B600C8AE57 /* FailedResponseException.swift in Sources */,
 				3A8D7F8D21BCEE6B00C8AE57 /* UserRepository.swift in Sources */,

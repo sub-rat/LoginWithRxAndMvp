@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol UserRemoteRepo {
-    
+   func doLogin(loginModel : LoginRequest) -> Observable<LoginResponse>
 }

@@ -11,4 +11,23 @@ import RxSwift
 
 class UserRepositoryImpl: UserRepository {
 
+    var remoteRepo: UserRemoteRepo
+    var localRepo: UserLocalRepo
+    
+    init(remoteRepo: UserRemoteRepo, localRepo: UserLocalRepo) {
+        self.remoteRepo = remoteRepo
+        self.localRepo = localRepo
+    }
+    
+    func doLogin(loginModel: LoginRequest) -> Observable<LoginResponse> {
+        return remoteRepo.doLogin(loginModel: loginModel)
+        .observeOn(ConcurrentDispatchQueueScheduler(qos: .background))
+        .subscribeOn(MainScheduler())
+    }
+    
+    func isUserLoggedIn() -> Bool {
+        return localRepo.isUserLoggedIn()
+    }
+    
+
 }

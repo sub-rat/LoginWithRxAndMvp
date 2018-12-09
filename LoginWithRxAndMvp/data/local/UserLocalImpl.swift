@@ -10,4 +10,14 @@ import Foundation
 
 class UserLocalImpl: UserLocalRepo  {
     
+    var prefs = PreferenceManager.getInstance
+    func saveUsername(loginResponse: LoginResponse) {
+        
+    }
+    
+    func isUserLoggedIn() -> Bool {
+        return prefs.isUserLoggedIn()
+    }
+    
+    
 }
